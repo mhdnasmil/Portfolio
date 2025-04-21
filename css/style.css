@@ -1148,75 +1148,6 @@ body.section-show .transition-mask:before{
 	line-height:1.6em;
 	color:#777;
 }
-.pricing-block{
-	padding:120px 0;
-}
-.pricing-block .section-header{
-	margin-bottom:90px;
-}
-.pricing-table{
-	max-width:300px;
-	margin:auto;
-	background:#F4F4F4;
-	padding:35px 0;
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
-}
-.pricing-table > .header > h4{
-	font-size:18px;
-	text-transform:uppercase;
-	margin:0;
-}
-.pricing-table > .header > .price{
-	margin-bottom:30px;
-	margin-top:30px;
-}
-.pricing-table > .header > .price > span{
-	display:inline-block;
-	*display:inline;
-	*zoom:1;
-	line-height:1em;
-}
-.pricing-table > .header > .price > .currency{
-	vertical-align:top;
-	margin-top:12px;
-}
-.pricing-table > .header > .price > .amount{
-	font-weight:bold;
-	font-size:80px;
-}
-.pricing-table > .header > .price > .period{
-	text-transform:uppercase;
-	letter-spacing:2px;
-	font-size:12px;
-}
-.pricing-table > .table-items{
-	list-style:none;
-	padding:0;
-	margin:0;
-	margin-top:25px;
-	margin-bottom:30px;
-}
-.pricing-table > .table-items > li{
-	padding:10px 0;
-}
-
-.pricing-table > .table-btn{
-	padding:11px 22px;
-	background:#333;
-	color:#FFF;
-	text-decoration:none;
-	display:inline-block;
-	*display:inline;
-	*zoom:1;
-	-webkit-transition:all .3s ease;
-	-moz-transition:all .3s ease;
-	transition:all .3s ease;
-}
-.pricing-table > .table-btn:hover{
-	background:#B7A389;
-}
 .process-block{
 	padding:100px 0;
 }
@@ -1634,50 +1565,6 @@ body .symp-btn{
 	background:#FFF;
 	background:rgba(255,255,255,.9);
 	color:#333;
-}
-#portfolio-filters{
-	text-align:center;
-	margin-bottom:45px;
-}
-#portfolio-filters > ul{
-	margin:0;
-	padding:0;
-	list-style:none;
-	font-size:0;
-}
-#portfolio-filters > ul > li{
-	display:inline-block;
-	*display:inline;
-	*zoom:1;
-	font-size:14px;
-	padding:0 26px;
-	position:relative;
-}
-#portfolio-filters > ul > li:last-of-type:after{
-	display:none;
-}
-#portfolio-filters > ul > li:after{
-	content: ' ';
-	position:absolute;
-	right:-9px;
-	top:50%;
-	margin-top:-3px;
-	height:6px;
-	width:6px;
-	border:solid 1px #E5E5E5;
-	transform:rotate(45deg);
-}
-#portfolio-filters > ul > li > a{
-	display:block;
-	color:#999;
-	text-decoration:none;
-}
-#portfolio-filters > ul > li > a:hover,
-#portfolio-filters > ul > li > a.active{
-	color:#333;
-}
-#portfolio-filters > ul > li > a.active{
-	text-decoration:line-through;
 }
 /*=======================================================================
 	Contact Section
